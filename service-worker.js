@@ -11,13 +11,13 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.f73867b47d8505f46d22a8822ee495b9.js"
+  "/precache-manifest.95dd97ffe8fc85e302e0a8323ffb1d8a.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "vue-alain-iview"});
+workbox.core.setCacheNameDetails({prefix: "vue-alain"});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
